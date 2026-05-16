@@ -91,7 +91,7 @@ async function registerFoodPartner(req,res){
            password:hashPassword,
            phone,
            address,
-           contactName
+           contactName,
       })
 
       const token = jwt.sign({
